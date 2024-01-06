@@ -18,12 +18,14 @@ body {
     font-weight: 700;
     padding: 18px 35px 19px 36px;
 }
-.section-title{
+
+.section-title {
     color: var(--Dark-01, #181818);
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    }
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -67,7 +69,8 @@ nav a {
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     /* max-width: 500px; */
 }
 
@@ -92,23 +95,56 @@ nav a {
     margin-top: 0;
     margin-bottom: 20px;
 }
-.banner-description{
+
+.banner-description {
     max-width: 585px;
     max-height: 60px;
 }
+
 /* main section styles */
 
 /* about sections styles */
-.about{
+.about {
     padding: 131px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
 }
-.section-description{
+
+.section-description {
     color: var(--Dark-03, #757575);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
+    /* 166.667% */
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.info-description {
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
