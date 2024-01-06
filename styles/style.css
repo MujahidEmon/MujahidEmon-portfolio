@@ -18,7 +18,12 @@ body {
     font-weight: 700;
     padding: 18px 35px 19px 36px;
 }
-
+.section-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    }
 /* nav related styles */
 nav {
     display: flex;
@@ -51,16 +56,59 @@ nav a {
 /* header related styles */
 .header {
     background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 38px 38px 30px 230px;
+    padding: 38px 0px 0 230px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    /* max-width: 500px; */
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 584px;
-    height: 676px;
+    height: 584px;
     flex-shrink: 0;
+}
+
+.banner-greeting {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    color: var(--Dark-01, #181818);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.banner-description{
+    max-width: 585px;
+    max-height: 60px;
+}
+/* main section styles */
+
+/* about sections styles */
+.about{
+    padding: 131px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-description{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
 }
